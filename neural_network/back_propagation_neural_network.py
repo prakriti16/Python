@@ -198,6 +198,5 @@ def example():
     model.summary()
     model.train(xdata=x, ydata=y, train_round=100, accuracy=0.01)
 
-
 if __name__ == "__main__":
     example()
